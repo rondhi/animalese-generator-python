@@ -21,9 +21,14 @@ Project is created with:
 * pydub
 
 ## Installing required dependencies
+
+`audioop` was deprecated in Python 3.11 and removed in Python 3.13. [See here](https://docs.python.org/3/library/audioop.html)
+Use `audioop-lts` instead
+
 ```
-$ pip install pydub
+$ pip install pydub audioop-lts
 ```
+
 [You'll also need to install `ffmpeg` or `libav` for this to work](https://github.com/jiaaro/pydub#dependencies)
 ```
 $ brew install ffmpeg
